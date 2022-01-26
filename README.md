@@ -1,7 +1,6 @@
-# reinforcement-learning
-
 ## Multi-armed bandit problem
-Imagine you are in Las Vegas, in your favorite casino. You are in a room containing five slot machines. For each of them the game is the same: you bet a certain amount of money, say 1 dollar, you pull the arm, and then the machine will either take your money, or give you twice your money back. Remember the rewards we talked about in the previous chapter? Let's say that if the machine takes your money, your reward is -1, and if the machine returns you twice your money, your reward is +1.
+### Problem to solve
+Imagine you are in Las Vegas, in your favorite casino. You are in a room containing five slot machines. For each of them the game is the same: you bet a certain amount of money, say 1 dollar, you pull the arm, and then the machine will either take your money, or give you twice your money back. Let's say that if the machine takes your money, your reward is -1, and if the machine returns you twice your money, your reward is +1.
 
 The first step of your strategy must be to figure out, in the minimum number of plays, which of these five slot machines has the highest chance of giving you a 1 reward. In other words, you have to quickly figure out the slot machine with the highest success rate. Then, as soon as you figure it out, you simply need to keep playing on that most successful slot machine.
 
