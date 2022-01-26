@@ -7,7 +7,7 @@ The first step of your strategy must be to figure out, in the minimum number of 
 Finding the most successful slot machine is not hard; one simple strategy could be to play 100 times on each of these five slot machines and then, at the end, look at which of them gave you more money. Statistically, this gives you a good chance of finding that most generous slot machine.
 All the challenge is in "quickly". The hardest part is to find the best slot machine in a minimum number of trials. This is where your first AI model comes into play.
 
-My solution uses **Thompson Sampling model** and is saved as ts-casino-bandit.py
+My solution uses [Thompson Sampling model](https://github.com/babaniyi/reinforcement-learning/blob/main/ts-casino-bandit.py)
 
 ## AI for Sales and Marketing
 ### Problem to solve
@@ -16,4 +16,4 @@ This plan consists of offering the customers the option to subscribe to a premiu
 
 The marketing team has 9 strategies.  These strategies were carefully and smartly elaborated by the marketing team, and each of them has the same goal: convert the maximum number of clients to the premium plan. However, these nine strategies are all different. The marketing team wants to figure out which strategy has the highest conversion rate as soon as possible, and by spending the minimum amount. They know that finding and deploying the best strategy can significantly increase the business's revenue. 
 
-My solution uses **Thompson Sampling model** and is saved as ts-marketing-bandit.py
+My solution uses [Thompson Sampling model](https://github.com/babaniyi/reinforcement-learning/blob/main/ts-marketing-bandit.py).
